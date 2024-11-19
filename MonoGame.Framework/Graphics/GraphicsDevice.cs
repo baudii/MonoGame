@@ -1263,6 +1263,7 @@ namespace Microsoft.Xna.Framework.Graphics
             if (vertexData == null)
                 throw new ArgumentNullException("vertexData");
 
+
             if (vertexData.Length == 0)
                 throw new ArgumentOutOfRangeException("vertexData");
 
