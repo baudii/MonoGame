@@ -1,8 +1,8 @@
 name: Build
 
 on:
-  workflow_dispatch:
-
+  push:
+    branches: [ test-test ]
 jobs:
   build:
     name: build-${{ matrix.os }}
